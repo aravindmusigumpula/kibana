@@ -1,0 +1,20 @@
+{
+  "id": "data",
+  "version": "kibana",
+  "server": true,
+  "ui": true,
+  "requiredPlugins": [
+    "bfetch",
+    "expressions",
+    "uiActions",
+    "share"
+  ],
+  "optionalPlugins": ["usageCollection"],
+  "extraPublicDirs": ["common"],
+  "requiredBundles": [
+    "usageCollection",
+    "kibanaUtils",
+    "kibanaReact",
+    "inspector"
+  ]
+}

@@ -1,0 +1,41 @@
+[role="xpack"]
+[[apm-getting-started]]
+== Get started with the APM app
+
+++++
+<titleabbrev>Get started</titleabbrev>
+++++
+
+For a quick, high-level overview of the health and performance of your application,
+start with:
+
+* <<services>>
+* <<traces>>
+* <<service-maps>>
+
+Notice something awry? Select a service or trace and dive deeper with:
+
+* <<service-overview>>
+* <<transactions>>
+* <<spans>>
+* <<errors>>
+* <<metrics>>
+
+TIP: Want to learn more about the Elastic APM ecosystem?
+See the {apm-overview-ref-v}/overview.html[APM Overview].
+
+include::services.asciidoc[]
+
+include::traces.asciidoc[]
+
+include::service-maps.asciidoc[]
+
+include::service-overview.asciidoc[]
+
+include::transactions.asciidoc[]
+
+include::spans.asciidoc[]
+
+include::errors.asciidoc[]
+
+include::metrics.asciidoc[]
